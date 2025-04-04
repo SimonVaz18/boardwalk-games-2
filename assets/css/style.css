@@ -22,12 +22,25 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Target used to add margin to sections */
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
+
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 
 /* Navbar */
 
